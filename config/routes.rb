@@ -1,4 +1,6 @@
 Mysecurity::Application.routes.draw do
+  get "pagina_inicio/index"
+
   resources :personas
 
   resources :establecimientos
@@ -86,6 +88,6 @@ Mysecurity::Application.routes.draw do
   #
   #
 
-  root :to => "establecimientos#index"
+  root :to => "pagina_inicio#index"
 
 end
