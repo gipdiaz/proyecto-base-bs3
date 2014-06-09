@@ -949,10 +949,39 @@ Establecimiento.create(	codigo_jurisdiccional:	"CEF"	, cue:	2600576	, anexo:	0	,
 Establecimiento.create(	codigo_jurisdiccional:	"VIAL"	, cue:	2600642	, anexo:	0	, cue_anexo:	260064200	, sector:	"Estatal"	, ambito:	"Urbano"	, nombre: "ESCUELA TÉCNICA DE VIALIDAD NACIONAL N°2 'INGENIERO JUAN D. PÍO'", localidad_id:	59	, domicilio: "Muzio 225, Padre Juan (U9100)")
 Establecimiento.create(	codigo_jurisdiccional:	"Z000023"	, cue:	2690001	, anexo:	0	, cue_anexo:	269000100	, sector:	"Estatal"	, ambito:	"Urbano"	, nombre: "COLEGIO UNIVERSITARIO PATAGÓNICO", localidad_id:	18	, domicilio: "Ruta Provincial Nº 1 , Km. 4 (U9005)")
 Establecimiento.create(	codigo_jurisdiccional:	"Z000024"	, cue:	2690002	, anexo:	0	, cue_anexo:	269000200	, sector:	"Estatal"	, ambito:	"Urbano"	, nombre: "LICEO MILITAR 'GENERAL ROCA'", localidad_id:	18	, domicilio: "Avda. Hipólito Yrigoyen 2351, General Roca (U9000)")
-																																									
 
-
-
-
-
-
+# INSTITUCIONALES
+Establecimiento.create(	codigo_jurisdiccional:	"3000", nombre: "Horas Cátedra Nivel Polimodal en Sede")
+Establecimiento.create(	codigo_jurisdiccional:	"3001", nombre: "Supervisión Región I")
+Establecimiento.create(	codigo_jurisdiccional:	"3002", nombre: "Supervisión Región II")
+Establecimiento.create(	codigo_jurisdiccional:	"3003", nombre: "Supervisión Región III")
+Establecimiento.create(	codigo_jurisdiccional:	"3004", nombre: "Supervisión Región IV")
+Establecimiento.create(	codigo_jurisdiccional:	"3005", nombre: "Supervisión Región V")
+Establecimiento.create(	codigo_jurisdiccional:	"3006", nombre: "Supervisión Región VI")
+Establecimiento.create(	codigo_jurisdiccional:	"3007", nombre: "Del. Administrativa Reg. II - Puerto Madryn")
+Establecimiento.create(	codigo_jurisdiccional:	"3008", nombre: "Del. Administrativa Reg. VI - Comodoro Rivadavia")
+Establecimiento.create(	codigo_jurisdiccional:	"3009", nombre: "Del. Administrativa Reg. IV - Trelew")
+Establecimiento.create(	codigo_jurisdiccional:	"3010", nombre: "Del. Administrativa Reg. III - Esquel")
+Establecimiento.create(	codigo_jurisdiccional:	"3011", nombre: "Del. Administrativa Reg. V - Sarmiento")
+Establecimiento.create(	codigo_jurisdiccional:	"3012", nombre: "Del. Administrativa Reg. I - Las Golondrinas")
+Establecimiento.create(	codigo_jurisdiccional:	"3031", nombre: "Horas Cátedra Nivel Superior en Sede")
+Establecimiento.create(	codigo_jurisdiccional:	'4000', nombre: 'Ministro')
+Establecimiento.create(	codigo_jurisdiccional:	'4001', nombre: 'Subsecretaria de Educacion')
+Establecimiento.create(	codigo_jurisdiccional:	'4002', nombre: 'Direccion General Operativa')
+Establecimiento.create(	codigo_jurisdiccional:	'4003', nombre: 'Direccion General de Proyectos Especiales')
+Establecimiento.create(	codigo_jurisdiccional:	'4004', nombre: 'Direccion de Infraestructura Escolar')
+Establecimiento.create(	codigo_jurisdiccional:	'4005', nombre: 'Direccion General de Ciencia y Técnica')
+Establecimiento.create(	codigo_jurisdiccional:	'4006', nombre: 'Direccion General de Administracion y Personal')
+Establecimiento.create(	codigo_jurisdiccional:	'4007', nombre: 'Direccion General de Educacion Inicial')
+Establecimiento.create(	codigo_jurisdiccional:	'4008', nombre: 'Direccion General de EGB')
+Establecimiento.create(	codigo_jurisdiccional:	'4009', nombre: 'Direccion General de Educacion Polimodal')
+Establecimiento.create(	codigo_jurisdiccional:	'4010', nombre: 'Direccion General de Regimenes Especiales')
+Establecimiento.create(	codigo_jurisdiccional:	'4011', nombre: 'Direccion General de Educacion Privada')
+Establecimiento.create(	codigo_jurisdiccional:	'4012', nombre: 'Direccion de Asesoria Legal')
+Establecimiento.create(	codigo_jurisdiccional:	'4013', nombre: 'Direccion de Asistencia Pedagogica a las Escuelas Prioritarias')
+Establecimiento.create(	codigo_jurisdiccional:	'4014', nombre: 'Direccion Centro Provincial de Informacion Educativa')
+Establecimiento.create(	codigo_jurisdiccional:	'4015', nombre: 'Direccion de Despacho')
+Establecimiento.create(	codigo_jurisdiccional:	'4016', nombre: 'Direccion de Estadistica Educativa')
+Establecimiento.create(	codigo_jurisdiccional:	'4017', nombre: 'Departamento Titulos y Equivalencias')
+Establecimiento.create(	codigo_jurisdiccional:	'4018', nombre: 'Plan Social')
+Establecimiento.create(	codigo_jurisdiccional:	'4019', nombre: 'Direccion General de Regimenes Especiales')
