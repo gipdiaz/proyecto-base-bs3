@@ -1,16 +1,28 @@
 # ruby encoding: utf-8
 
-# Carga de roles
-Role.create(description: 'Admin')
-Role.create(description: 'User')
+#Carga de roles
+Role.create(description: 'sadmin')
+Role.create(description: 'admin')
+Role.create(description: 'user')
 
-# Carga de usuarios
-User.create(email:"admin@admin.com", password:"admin123456")
-User.create(email:"user@user.com", password:"user123456")
+#Carga de usuarios
+User.create(email:"sadmin@sadmin.com", password:"sadmin123456", )
+User.find(1).update_attribute(:confirmation_sent_at,"2001-01-01 00:00:00")
+User.find(1).update_attribute(:confirmed_at,"2001-01-01 00:00:10")
+
+User.create(email:"admin@admin.com", password:"admin123456", confirmed_at:"2014-06-09 18:09:37", confirmation_sent_at:"2014-06-09 18:09:17")
+User.find(2).update_attribute(:confirmation_sent_at,"2001-01-01 00:00:00")
+User.find(2).update_attribute(:confirmed_at,"2001-01-01 00:00:10")
+
+User.create(email:"user@user.com", password:"user123456", confirmed_at:"2014-06-09 18:09:37", confirmation_sent_at:"2014-06-09 18:09:17")
+User.find(3).update_attribute(:confirmation_sent_at,"2001-01-01 00:00:00")
+User.find(3).update_attribute(:confirmed_at,"2001-01-01 00:00:10")
+
 
 #Carga de Roles de los Usuarios
 UserRole.create(user_id:1,role_id:1)
 UserRole.create(user_id:2,role_id:2)
+UserRole.create(user_id:3,role_id:3)
 
 #Carga de sexos
 Sexo.create(nombre:"Masculino")
